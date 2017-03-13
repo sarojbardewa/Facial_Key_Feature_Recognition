@@ -21,6 +21,7 @@ using namespace std;
 ///////////////////////////
 #define CPU_EX
 //#define GPU_EX
+//#define DEBUG
 //////////////////////////////////////////////////////////////////
 // Function Prototypes
 /////////////////////////////////////////////////////////////////
@@ -30,6 +31,7 @@ Mat k_rgb2Gray(Mat &inImage,Mat &outputGrayImage,float &runtime);
 Mat k_normalize(Mat &inGrayImage,Mat &tempImage, float & runtime);
 //CPU functions
 Mat h_rgb2Gray(Mat &inRGBImage,Mat &tempImage,float &runtime);
+Mat h_normalize(Mat &inGrayImage,Mat &tempImage,float &runtime);
 
 /*****************************************************************/
 int main(int argc, char **argv) {
@@ -60,6 +62,7 @@ int main(int argc, char **argv) {
 	// Call a function to convert input RGB image to Grayscale image
 	// and display the computation time
 	Mat grayImage;
+//**********************************************************************
 	////////////////////////////////////////////////////////////
 	// CPU Functions
 	///////////////////////////////////////////////////////////
@@ -78,9 +81,12 @@ int main(int argc, char **argv) {
 		grayImage = inImage.clone();
 
 	//---------------------------------------------------------//
+	// Call a function to normalize the grayscale image	
+	Mat normImage = h_normalize(grayImage,tempImage,exTime);
+	cout << "CPU_Normalization Computation time : " <<exTime << " ms" <<endl;
 
-
-#endif
+#endif //CPU_EX
+//*******************************************************************************
 	//////////////////////////////////////////////////////////////
  	// GPU Functions
 	//////////////////////////////////////////////////////////////
@@ -102,12 +108,23 @@ int main(int argc, char **argv) {
 	cout << "GPU_Normalization Computation time : " <<exTime << " ms" <<endl;
 
 #endif //GPU_EX	
+
+//****************************************************************************
+#ifdef DEBUG
+	////////////////////////////////////////////////////////////
+	// Verify the calculate outputs with opencv APIs
+	///////////////////////////////////////////////////////////
+	Mat dst = grayImage.clone();
+	normalize(grayImage, dst, 0, 255, NORM_MINMAX, CV_8UC1);
+	showImage(dst, "OPENCV NORMALIZED IMAGE");
+#endif
+//****************************************************************************
 	///////////////////////////////////////////////////////////////////
 	// Display images
 	////////////////////////////////////////////////////////////////////
-	showImage(inImage,"ORIGINAL IMAGE");
-	showImage(grayImage,"GRAYSCALE IMAGE");
-	//showImage(normImage, "NORMALIZED IMAGE");
+	//showImage(inImage,"ORIGINAL IMAGE");
+	//showImage(grayImage,"GRAYSCALE IMAGE");
+	showImage(normImage, "NORMALIZED IMAGE");
 	waitKey(0);
 
 return 0;
@@ -125,6 +142,5 @@ void showImage(Mat &img, string windowName)
 	namedWindow(windowName);
 	imshow(windowName,img);
 }
-
 
 

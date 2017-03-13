@@ -49,7 +49,7 @@ Mat k_normalize(Mat &inGrayImage,Mat &tempImage, float &runtime)
 	const dim3 	blockSize(THREADS_PER_BLOCK_N,1,1); // dim3 block(nx(B),ny(G),nz(R)) 
 	const dim3 	gridSize(numberOfBlocks,1,1);	
 		
-	// Find the minimum and maximum value in the image
+	//Get the minimum and maximum pixel intensity on the image
     	double minVal, maxVal;
 	minMaxLoc(inGrayImage, &minVal, &maxVal);
 	

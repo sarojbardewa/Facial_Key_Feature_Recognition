@@ -58,3 +58,51 @@ Mat h_rgb2Gray(Mat &inRGBImage,Mat &tempImage,float &runtime)
 
  	return output;
 }
+
+
+///////////////////////////////////////////
+// Normalize the image
+//////////////////////////////////////////
+
+Mat h_normalize(Mat &inGrayImage,Mat &tempImage,float &runtime)
+{	
+		
+	// Get the dimensions of the image
+	int rows = inGrayImage.rows;
+	int cols = inGrayImage.cols;
+	unsigned char  pixelVal;	 // Pixel intensity
+
+	// Create temporary variables and initialize them	
+	unsigned char *h_rgbImage;
+	unsigned char *h_grayImage;
+
+	h_rgbImage =  inGrayImage.ptr<unsigned char>(0);
+	h_grayImage = tempImage.ptr<unsigned char>(0);
+
+	//Get the minimum and maximum pixel intensity on the image
+    	double minVal, maxVal;
+	minMaxLoc(inGrayImage, &minVal, &maxVal);
+
+	// Record time
+	// Creat timer variables
+	CPUTimer cpuClk;
+	cpuClk.Start();
+	
+	// Loop to convert RGB to Gray
+	for(int i = 0; i <rows; i++)
+	{
+		for(int j = 0; j <cols; j++)
+		{
+			pixelVal = h_rgbImage[i*rows+j];
+			h_grayImage[i*rows+j] = (pixelVal -minVal) * ((255-0)/(maxVal - minVal)) + 0;
+		}
+	}	
+	
+	cpuClk.Stop();
+	runtime = cpuClk.Runtime(); // Record the time elapsed
+	
+	// Write CUDA processed image
+	Mat output(inGrayImage.rows, inGrayImage.cols,CV_8UC1,(void*)h_grayImage);
+
+ 	return output;
+}
