@@ -14,17 +14,22 @@
 #include <opencv2/opencv.hpp>
 
 #include "timer.h"
-
-
 using namespace cv;
 using namespace std; 
-
+////////////////////////////
+//Macros
+///////////////////////////
+#define CPU_EX
+//#define GPU_EX
 //////////////////////////////////////////////////////////////////
 // Function Prototypes
 /////////////////////////////////////////////////////////////////
 void showImage(Mat &img, string windowName);
+//GPU functions
 Mat k_rgb2Gray(Mat &inImage,Mat &outputGrayImage,float &runtime);
 Mat k_normalize(Mat &inGrayImage,Mat &tempImage, float & runtime);
+//CPU functions
+Mat h_rgb2Gray(Mat &inRGBImage,Mat &tempImage,float &runtime);
 
 /*****************************************************************/
 int main(int argc, char **argv) {
@@ -55,6 +60,33 @@ int main(int argc, char **argv) {
 	// Call a function to convert input RGB image to Grayscale image
 	// and display the computation time
 	Mat grayImage;
+	////////////////////////////////////////////////////////////
+	// CPU Functions
+	///////////////////////////////////////////////////////////
+#ifdef CPU_EX
+	//------------------------------------------------------------//
+	// Convert RGB to Gray
+	if(inImage.channels() > 1)  
+	{
+		// Image is not already a grayscale image, so convert it
+		grayImage = h_rgb2Gray(inImage,tempImage,exTime);
+		cout << "\n****************************************" <<endl;
+		cout << "CPU_Grayscale Computation time : " <<exTime << " ms" <<endl;
+	}
+	
+	else
+		grayImage = inImage.clone();
+
+	//---------------------------------------------------------//
+
+
+#endif
+	//////////////////////////////////////////////////////////////
+ 	// GPU Functions
+	//////////////////////////////////////////////////////////////
+#ifdef GPU_EX
+	//-----------------------------------------------------------//
+	// Convert RBG image to Grayscale
         if(inImage.channels() > 1)  
 	{
 		// Image is not already a grayscale image, so convert it
@@ -64,14 +96,18 @@ int main(int argc, char **argv) {
 	}
 	else
 	 	grayImage = inImage.clone();
-
-	// Call the function to normalize the grayscale image	
+	//-----------------------------------------------------------//
+	// Call a function to normalize the grayscale image	
 	Mat normImage = k_normalize(grayImage,tempImage,exTime);
 	cout << "GPU_Normalization Computation time : " <<exTime << " ms" <<endl;
-	
+
+#endif //GPU_EX	
+	///////////////////////////////////////////////////////////////////
+	// Display images
+	////////////////////////////////////////////////////////////////////
 	showImage(inImage,"ORIGINAL IMAGE");
 	showImage(grayImage,"GRAYSCALE IMAGE");
-	showImage(normImage, "NORMALIZED IMAGE");
+	//showImage(normImage, "NORMALIZED IMAGE");
 	waitKey(0);
 
 return 0;

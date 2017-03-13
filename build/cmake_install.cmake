@@ -1,4 +1,4 @@
-# Install script for directory: /u/saroj/Desktop/ECE5882GR/ECE588_Saroj
+# Install script for directory: /u/saroj/GITHUB/Facial_Key_Regions_Detection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

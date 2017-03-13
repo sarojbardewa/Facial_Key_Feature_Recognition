@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/src/main.cpp" "/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/main.cpp.o"
+  "/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/cpuFunctions.cpp" "/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o"
+  "/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/main.cpp" "/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

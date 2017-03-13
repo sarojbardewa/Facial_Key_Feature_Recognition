@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /u/saroj/Desktop/ECE5882GR/ECE588_Saroj
+CMAKE_SOURCE_DIR = /u/saroj/GITHUB/Facial_Key_Regions_Detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build
+CMAKE_BINARY_DIR = /u/saroj/GITHUB/Facial_Key_Regions_Detection/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,9 +83,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -126,6 +126,33 @@ faceDetector/fast:
 	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/build
 .PHONY : faceDetector/fast
 
+src/cpuFunctions.o: src/cpuFunctions.cpp.o
+
+.PHONY : src/cpuFunctions.o
+
+# target to build an object file
+src/cpuFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o
+.PHONY : src/cpuFunctions.cpp.o
+
+src/cpuFunctions.i: src/cpuFunctions.cpp.i
+
+.PHONY : src/cpuFunctions.i
+
+# target to preprocess a source file
+src/cpuFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.i
+.PHONY : src/cpuFunctions.cpp.i
+
+src/cpuFunctions.s: src/cpuFunctions.cpp.s
+
+.PHONY : src/cpuFunctions.s
+
+# target to generate assembly for a file
+src/cpuFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.s
+.PHONY : src/cpuFunctions.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -162,6 +189,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... faceDetector"
+	@echo "... src/cpuFunctions.o"
+	@echo "... src/cpuFunctions.i"
+	@echo "... src/cpuFunctions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

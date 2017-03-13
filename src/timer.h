@@ -55,11 +55,11 @@ struct CPUTimer
 		clock_gettime(CLOCK_REALTIME, &stopCPUtime);
 	}
 
-	 unsigned long long int Runtime()
+	float Runtime()
 	{
-		unsigned long long int runtime;
+		float runtime;
 		runtime = 1000000000 * (stopCPUtime.tv_sec - startCPUtime.tv_sec) + (stopCPUtime.tv_nsec - startCPUtime.tv_nsec);
-		return runtime;
+		return runtime/1000000.00; // Give time in ms
 	}
 
 };

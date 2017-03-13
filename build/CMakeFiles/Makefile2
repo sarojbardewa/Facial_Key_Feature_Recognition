@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /u/saroj/Desktop/ECE5882GR/ECE588_Saroj
+CMAKE_SOURCE_DIR = /u/saroj/GITHUB/Facial_Key_Regions_Detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build
+CMAKE_BINARY_DIR = /u/saroj/GITHUB/Facial_Key_Regions_Detection/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/faceDetector.dir
@@ -69,7 +69,7 @@ CMAKE_BINARY_DIR = /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build
 CMakeFiles/faceDetector.dir/all:
 	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/depend
 	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles --progress-num=1,2,3,4 "Built target faceDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target faceDetector"
 .PHONY : CMakeFiles/faceDetector.dir/all
 
 # Include target in all.
@@ -79,9 +79,9 @@ all: CMakeFiles/faceDetector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/faceDetector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/faceDetector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles 0
 .PHONY : CMakeFiles/faceDetector.dir/rule
 
 # Convenience name for target.
