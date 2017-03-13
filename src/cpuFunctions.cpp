@@ -59,7 +59,6 @@ Mat h_rgb2Gray(Mat &inRGBImage,Mat &tempImage,float &runtime)
  	return output;
 }
 
-
 ///////////////////////////////////////////
 // Normalize the image
 //////////////////////////////////////////

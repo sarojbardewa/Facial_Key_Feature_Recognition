@@ -122,8 +122,8 @@ int main(int argc, char **argv) {
 	///////////////////////////////////////////////////////////////////
 	// Display images
 	////////////////////////////////////////////////////////////////////
-	//showImage(inImage,"ORIGINAL IMAGE");
-	//showImage(grayImage,"GRAYSCALE IMAGE");
+	showImage(inImage,"ORIGINAL IMAGE");
+	showImage(grayImage,"GRAYSCALE IMAGE");
 	showImage(normImage, "NORMALIZED IMAGE");
 	waitKey(0);
 
