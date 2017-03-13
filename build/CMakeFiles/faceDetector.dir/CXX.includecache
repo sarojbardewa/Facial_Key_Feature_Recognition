@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/src/main.cpp
+iostream
+-
+stdlib.h
+-
+string
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/opencv.hpp
+-
+timer.h
+/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/src/timer.h
+
+/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/src/timer.h
+cuda_runtime.h
+-
+time.h
+-
+
