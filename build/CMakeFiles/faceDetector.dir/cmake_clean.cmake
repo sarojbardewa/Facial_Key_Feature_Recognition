@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o"
   "CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o"
   "CMakeFiles/faceDetector.dir/src/main.cpp.o"
+  "CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o"
   "faceDetector.pdb"
   "faceDetector"
 )

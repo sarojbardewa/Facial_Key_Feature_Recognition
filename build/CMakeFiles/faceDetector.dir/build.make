@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /u/saroj/Desktop/ECE5882GR/ECE588_Saroj
+CMAKE_SOURCE_DIR = /u/saroj/GITHUB/Facial_Key_Regions_Detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build
+CMAKE_BINARY_DIR = /u/saroj/GITHUB/Facial_Key_Regions_Detection/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/faceDetector.dir/depend.make
@@ -321,9 +321,9 @@ CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o: /usr/lib/g
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o: /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o: CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o.cmake
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o: ../src/cudaNorm.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o"
-	cd /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -E make_directory /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/.
-	cd /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaNorm.cu.o -D generated_cubin_file:STRING=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaNorm.cu.o.cubin.txt -P /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o"
+	cd /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -E make_directory /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/.
+	cd /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaNorm.cu.o -D generated_cubin_file:STRING=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaNorm.cu.o.cubin.txt -P /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o.cmake
 
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o: ../src/cudaGrayscale.cu
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o: ../src/timer.h
@@ -586,22 +586,22 @@ CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o: /usr/
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o: /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o: CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o.cmake
 CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o: ../src/cudaGrayscale.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o"
-	cd /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -E make_directory /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/.
-	cd /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaGrayscale.cu.o -D generated_cubin_file:STRING=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaGrayscale.cu.o.cubin.txt -P /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o"
+	cd /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -E make_directory /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/.
+	cd /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaGrayscale.cu.o -D generated_cubin_file:STRING=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/./faceDetector_generated_cudaGrayscale.cu.o.cubin.txt -P /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o.cmake
 
 CMakeFiles/faceDetector.dir/src/main.cpp.o: CMakeFiles/faceDetector.dir/flags.make
 CMakeFiles/faceDetector.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/faceDetector.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/faceDetector.dir/src/main.cpp.o -c /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/faceDetector.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/faceDetector.dir/src/main.cpp.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/main.cpp
 
 CMakeFiles/faceDetector.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/faceDetector.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/src/main.cpp > CMakeFiles/faceDetector.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/main.cpp > CMakeFiles/faceDetector.dir/src/main.cpp.i
 
 CMakeFiles/faceDetector.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/faceDetector.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/src/main.cpp -o CMakeFiles/faceDetector.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/main.cpp -o CMakeFiles/faceDetector.dir/src/main.cpp.s
 
 CMakeFiles/faceDetector.dir/src/main.cpp.o.requires:
 
@@ -614,16 +614,42 @@ CMakeFiles/faceDetector.dir/src/main.cpp.o.provides: CMakeFiles/faceDetector.dir
 CMakeFiles/faceDetector.dir/src/main.cpp.o.provides.build: CMakeFiles/faceDetector.dir/src/main.cpp.o
 
 
+CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o: CMakeFiles/faceDetector.dir/flags.make
+CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o: ../src/cpuFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/cpuFunctions.cpp
+
+CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/cpuFunctions.cpp > CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.i
+
+CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/cpuFunctions.cpp -o CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.s
+
+CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.requires:
+
+.PHONY : CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.requires
+
+CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.provides: CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.provides
+
+CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.provides.build: CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o
+
+
 # Object files for target faceDetector
 faceDetector_OBJECTS = \
-"CMakeFiles/faceDetector.dir/src/main.cpp.o"
+"CMakeFiles/faceDetector.dir/src/main.cpp.o" \
+"CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o"
 
 # External object files for target faceDetector
 faceDetector_EXTERNAL_OBJECTS = \
-"/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o" \
-"/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o"
+"/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o" \
+"/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o"
 
 faceDetector: CMakeFiles/faceDetector.dir/src/main.cpp.o
+faceDetector: CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o
 faceDetector: CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o
 faceDetector: CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o
 faceDetector: CMakeFiles/faceDetector.dir/build.make
@@ -650,7 +676,7 @@ faceDetector: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.9
 faceDetector: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
 faceDetector: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 faceDetector: CMakeFiles/faceDetector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable faceDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable faceDetector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/faceDetector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -659,6 +685,7 @@ CMakeFiles/faceDetector.dir/build: faceDetector
 .PHONY : CMakeFiles/faceDetector.dir/build
 
 CMakeFiles/faceDetector.dir/requires: CMakeFiles/faceDetector.dir/src/main.cpp.o.requires
+CMakeFiles/faceDetector.dir/requires: CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o.requires
 
 .PHONY : CMakeFiles/faceDetector.dir/requires
 
@@ -668,6 +695,6 @@ CMakeFiles/faceDetector.dir/clean:
 
 CMakeFiles/faceDetector.dir/depend: CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaNorm.cu.o
 CMakeFiles/faceDetector.dir/depend: CMakeFiles/faceDetector.dir/src/faceDetector_generated_cudaGrayscale.cu.o
-	cd /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /u/saroj/Desktop/ECE5882GR/ECE588_Saroj /u/saroj/Desktop/ECE5882GR/ECE588_Saroj /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build /u/saroj/Desktop/ECE5882GR/ECE588_Saroj/build/CMakeFiles/faceDetector.dir/DependInfo.cmake --color=$(COLOR)
+	cd /u/saroj/GITHUB/Facial_Key_Regions_Detection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /u/saroj/GITHUB/Facial_Key_Regions_Detection /u/saroj/GITHUB/Facial_Key_Regions_Detection /u/saroj/GITHUB/Facial_Key_Regions_Detection/build /u/saroj/GITHUB/Facial_Key_Regions_Detection/build /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/faceDetector.dir/depend
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++0x -O3
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/opencv -I/u/saroj/Desktop/ECE5882GR/ECE588_Saroj/include 
+CXX_INCLUDES = -I/usr/include/opencv -I/u/saroj/GITHUB/Facial_Key_Regions_Detection/include 
 
