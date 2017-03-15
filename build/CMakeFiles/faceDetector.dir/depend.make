@@ -4,6 +4,7 @@
 CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o: ../src/cpuFunctions.cpp
 CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o: ../src/timer.h
 
+CMakeFiles/faceDetector.dir/src/main.cpp.o: ../src/globalVar.h
 CMakeFiles/faceDetector.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/faceDetector.dir/src/main.cpp.o: ../src/timer.h
 

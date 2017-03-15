@@ -5,6 +5,7 @@ CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o
  /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/cpuFunctions.cpp
  /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/timer.h
 CMakeFiles/faceDetector.dir/src/main.cpp.o
+ /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/globalVar.h
  /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/main.cpp
  /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/timer.h
 CMakeFiles/faceDetector.dir/src/openCV_APIs.cpp.o

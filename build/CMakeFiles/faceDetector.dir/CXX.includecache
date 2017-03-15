@@ -22,6 +22,8 @@ opencv2/opencv.hpp
 timer.h
 /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/timer.h
 
+/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/globalVar.h
+
 /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/main.cpp
 iostream
 -
@@ -35,6 +37,8 @@ opencv2/highgui/highgui.hpp
 -
 opencv2/opencv.hpp
 -
+globalVar.h
+/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/globalVar.h
 timer.h
 /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/timer.h
 
