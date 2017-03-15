@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/cpuFunctions.cpp" "/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o"
   "/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/main.cpp" "/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/main.cpp.o"
+  "/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/openCV_APIs.cpp" "/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/faceDetector.dir/src/openCV_APIs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

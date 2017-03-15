@@ -38,6 +38,20 @@ opencv2/opencv.hpp
 timer.h
 /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/timer.h
 
+/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/openCV_APIs.cpp
+iostream
+-
+string
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/opencv.hpp
+-
+timer.h
+/u/saroj/GITHUB/Facial_Key_Regions_Detection/src/timer.h
+
 /u/saroj/GITHUB/Facial_Key_Regions_Detection/src/timer.h
 cuda_runtime.h
 -

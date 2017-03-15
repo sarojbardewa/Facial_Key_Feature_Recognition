@@ -7,3 +7,6 @@ CMakeFiles/faceDetector.dir/src/cpuFunctions.cpp.o: ../src/timer.h
 CMakeFiles/faceDetector.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/faceDetector.dir/src/main.cpp.o: ../src/timer.h
 
+CMakeFiles/faceDetector.dir/src/openCV_APIs.cpp.o: ../src/openCV_APIs.cpp
+CMakeFiles/faceDetector.dir/src/openCV_APIs.cpp.o: ../src/timer.h
+

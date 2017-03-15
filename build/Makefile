@@ -180,6 +180,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/openCV_APIs.o: src/openCV_APIs.cpp.o
+
+.PHONY : src/openCV_APIs.o
+
+# target to build an object file
+src/openCV_APIs.cpp.o:
+	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/openCV_APIs.cpp.o
+.PHONY : src/openCV_APIs.cpp.o
+
+src/openCV_APIs.i: src/openCV_APIs.cpp.i
+
+.PHONY : src/openCV_APIs.i
+
+# target to preprocess a source file
+src/openCV_APIs.cpp.i:
+	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/openCV_APIs.cpp.i
+.PHONY : src/openCV_APIs.cpp.i
+
+src/openCV_APIs.s: src/openCV_APIs.cpp.s
+
+.PHONY : src/openCV_APIs.s
+
+# target to generate assembly for a file
+src/openCV_APIs.cpp.s:
+	$(MAKE) -f CMakeFiles/faceDetector.dir/build.make CMakeFiles/faceDetector.dir/src/openCV_APIs.cpp.s
+.PHONY : src/openCV_APIs.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -195,6 +222,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/openCV_APIs.o"
+	@echo "... src/openCV_APIs.i"
+	@echo "... src/openCV_APIs.s"
 .PHONY : help
 
 
