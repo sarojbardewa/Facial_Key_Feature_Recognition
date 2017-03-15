@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/u/saroj/GITHUB/Facial_Key_Reg
 Determining if the C compiler works passed with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a6d1b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a6d1b.dir/build.make CMakeFiles/cmTC_a6d1b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bc8d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc8d6.dir/build.make CMakeFiles/cmTC_bc8d6.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a6d1b.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_a6d1b.dir/testCCompiler.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a6d1b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6d1b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a6d1b.dir/testCCompiler.c.o  -o cmTC_a6d1b -rdynamic 
+Building C object CMakeFiles/cmTC_bc8d6.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bc8d6.dir/testCCompiler.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bc8d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc8d6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bc8d6.dir/testCCompiler.c.o  -o cmTC_bc8d6 -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_13daf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_13daf.dir/build.make CMakeFiles/cmTC_13daf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_88b57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88b57.dir/build.make CMakeFiles/cmTC_88b57.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_13daf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13daf.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o  -o cmTC_13daf -rdynamic  
+Building C object CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_88b57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b57.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o  -o cmTC_88b57 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13daf' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6SUpZO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_13daf /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88b57' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM7akuc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_88b57 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_13daf/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_13daf.dir/build.make CMakeFiles/cmTC_13daf.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_88b57/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_88b57.dir/build.make CMakeFiles/cmTC_88b57.dir/build]
   ignore line: [make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_13daf]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13daf.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o  -o cmTC_13daf -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_88b57]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b57.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o  -o cmTC_88b57 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13daf' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6SUpZO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_13daf /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_88b57' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM7akuc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_88b57 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6SUpZO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccM7akuc.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_13daf] ==> ignore
+    arg [cmTC_88b57] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_13daf.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_88b57.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ece0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ece0.dir/build.make CMakeFiles/cmTC_1ece0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bbb21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbb21.dir/build.make CMakeFiles/cmTC_bbb21.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1ece0.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1ece0.dir/feature_tests.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1ece0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ece0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1ece0.dir/feature_tests.c.o  -o cmTC_1ece0 -rdynamic 
+Building C object CMakeFiles/cmTC_bbb21.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_bbb21.dir/feature_tests.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bbb21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb21.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bbb21.dir/feature_tests.c.o  -o cmTC_bbb21 -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/C
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4ecf9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4ecf9.dir/build.make CMakeFiles/cmTC_4ecf9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a212a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a212a.dir/build.make CMakeFiles/cmTC_a212a.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4ecf9.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_4ecf9.dir/feature_tests.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4ecf9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ecf9.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4ecf9.dir/feature_tests.c.o  -o cmTC_4ecf9 -rdynamic 
+Building C object CMakeFiles/cmTC_a212a.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_a212a.dir/feature_tests.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a212a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a212a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a212a.dir/feature_tests.c.o  -o cmTC_a212a -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/C
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dc6e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dc6e2.dir/build.make CMakeFiles/cmTC_dc6e2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fa14c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa14c.dir/build.make CMakeFiles/cmTC_fa14c.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dc6e2.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_dc6e2.dir/feature_tests.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_dc6e2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc6e2.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_dc6e2.dir/feature_tests.c.o  -o cmTC_dc6e2 -rdynamic 
+Building C object CMakeFiles/cmTC_fa14c.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_fa14c.dir/feature_tests.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fa14c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa14c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fa14c.dir/feature_tests.c.o  -o cmTC_fa14c -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/C
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3aa25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3aa25.dir/build.make CMakeFiles/cmTC_3aa25.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f4547/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4547.dir/build.make CMakeFiles/cmTC_f4547.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3aa25.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_3aa25.dir/testCXXCompiler.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_3aa25
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aa25.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_3aa25.dir/testCXXCompiler.cxx.o  -o cmTC_3aa25 -rdynamic 
+Building CXX object CMakeFiles/cmTC_f4547.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f4547.dir/testCXXCompiler.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f4547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4547.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f4547.dir/testCXXCompiler.cxx.o  -o cmTC_f4547 -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d7d6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2d7d6.dir/build.make CMakeFiles/cmTC_2d7d6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2690a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2690a.dir/build.make CMakeFiles/cmTC_2690a.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2d7d6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7d6.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2d7d6 -rdynamic  
+Building CXX object CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2690a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2690a.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2690a -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d7d6' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYGAQta.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2d7d6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2690a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpzq0sv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2690a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2d7d6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2d7d6.dir/build.make CMakeFiles/cmTC_2d7d6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2690a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2690a.dir/build.make CMakeFiles/cmTC_2690a.dir/build]
   ignore line: [make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2d7d6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7d6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2d7d6 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2690a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2690a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2690a -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d7d6' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYGAQta.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2d7d6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2690a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpzq0sv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2690a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccYGAQta.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpzq0sv.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2d7d6] ==> ignore
+    arg [cmTC_2690a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_2d7d6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2690a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bdc72/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bdc72.dir/build.make CMakeFiles/cmTC_bdc72.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b048a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b048a.dir/build.make CMakeFiles/cmTC_b048a.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bdc72.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_bdc72.dir/feature_tests.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bdc72
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdc72.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_bdc72.dir/feature_tests.cxx.o  -o cmTC_bdc72 -rdynamic 
+Building CXX object CMakeFiles/cmTC_b048a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_b048a.dir/feature_tests.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b048a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b048a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b048a.dir/feature_tests.cxx.o  -o cmTC_b048a -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/C
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79e85/fast"
-/usr/bin/make -f CMakeFiles/cmTC_79e85.dir/build.make CMakeFiles/cmTC_79e85.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ecec6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecec6.dir/build.make CMakeFiles/cmTC_ecec6.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_79e85.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_79e85.dir/feature_tests.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_79e85
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79e85.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_79e85.dir/feature_tests.cxx.o  -o cmTC_79e85 -rdynamic 
+Building CXX object CMakeFiles/cmTC_ecec6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_ecec6.dir/feature_tests.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ecec6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecec6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ecec6.dir/feature_tests.cxx.o  -o cmTC_ecec6 -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/C
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f8554/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f8554.dir/build.make CMakeFiles/cmTC_f8554.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_33f0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33f0b.dir/build.make CMakeFiles/cmTC_33f0b.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f8554.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_f8554.dir/feature_tests.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f8554
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8554.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f8554.dir/feature_tests.cxx.o  -o cmTC_f8554 -rdynamic 
+Building CXX object CMakeFiles/cmTC_33f0b.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_33f0b.dir/feature_tests.cxx.o -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_33f0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33f0b.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_33f0b.dir/feature_tests.cxx.o  -o cmTC_33f0b -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -555,28 +555,28 @@ make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/C
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_30a41/fast"
-/usr/bin/make -f CMakeFiles/cmTC_30a41.dir/build.make CMakeFiles/cmTC_30a41.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_22ba4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22ba4.dir/build.make CMakeFiles/cmTC_22ba4.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_30a41.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_30a41.dir/CheckIncludeFile.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_30a41
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30a41.dir/link.txt --verbose=1
-/usr/bin/cc  -fPIC     CMakeFiles/cmTC_30a41.dir/CheckIncludeFile.c.o  -o cmTC_30a41 -rdynamic 
+Building C object CMakeFiles/cmTC_22ba4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_22ba4.dir/CheckIncludeFile.c.o   -c /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_22ba4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ba4.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_22ba4.dir/CheckIncludeFile.c.o  -o cmTC_22ba4 -rdynamic 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43a6b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43a6b.dir/build.make CMakeFiles/cmTC_43a6b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_adf72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adf72.dir/build.make CMakeFiles/cmTC_adf72.dir/build
 make[1]: Entering directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43a6b.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_43a6b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_43a6b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a6b.dir/link.txt --verbose=1
-/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_43a6b.dir/CheckFunctionExists.c.o  -o cmTC_43a6b -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_adf72.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_adf72.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_adf72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adf72.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_adf72.dir/CheckFunctionExists.c.o  -o cmTC_adf72 -rdynamic -lpthread 
 make[1]: Leaving directory '/u/saroj/GITHUB/Facial_Key_Regions_Detection/build/CMakeFiles/CMakeTmp'
 
 
