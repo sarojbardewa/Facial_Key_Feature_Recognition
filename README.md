@@ -22,4 +22,4 @@ The code is written in C++.
 	1. type cmake ..
 	2. type make
 	3. run the program with an image <face.img> as follows:
-		./facedetector face.img  
+		./facedetector face.jpg  
