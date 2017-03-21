@@ -3,7 +3,7 @@ In this project, OpenCV Cascade Classifier is used to locate the key features
 in human face, namely eyes, nose and mouth. CUDA programming is 
 used to reduce the computation time in the face detection pipeline.
 Both the sequential and parallel versions of algorithms are 
-implementated to compare their relative computation time.
+implementated to compare their relative computation times.
 The code is written in C++.
 
 # Hardware requirement
